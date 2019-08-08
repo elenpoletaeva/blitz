@@ -1,0 +1,177 @@
+@media only screen and (max-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) {
+	.top {
+		display: none;
+	}
+	header, main {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.logo {
+		padding-left: 10px;
+	}
+	.touch {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 25px;
+	}
+	nav {
+		display: flex;
+		max-height: 100px;
+		position: relative;
+	}
+	nav ul {
+		display: none;		
+		width: 97%;
+		flex-direction: column;
+		align-self: center;
+		position: absolute;
+		top: 80px;
+		right: 5px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #f4f4f4;
+		box-shadow: 0 1px 4px rgba(0,0,0,.3);
+		margin-left: 0;
+	} 
+	nav li:hover {
+		background: #b9b1b1;
+	}
+	nav li a:hover {
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+	main .container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.blog p {
+		font-size: 16px;
+	}
+	section p {
+		font-size: 16px;		
+	}
+	main .container section {
+		width: 90%;
+		margin: 70px auto auto auto;
+	}
+	main .container:nth-child(4) {
+		flex-direction: row;
+	}	
+	main .container:nth-child(4) h3 {
+		text-align: center;
+		font-size: 12px;
+		line-height: 100%;
+	}	
+	main .container:nth-child(5) section {
+		width: 90%;
+	}
+	main .container:nth-child(5) h5 {
+		text-align: center;
+	}
+	main .container:nth-child(5) .one {
+		width: 100%;
+	}
+	footer {
+		margin: 65px 0 0 0;
+	}
+	footer .container {
+		width: 90%;
+		margin-top: 4%;
+	}
+
+}
+@media only screen and (max-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) {
+	.top {
+		display: none;
+	}
+	header, main {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.logo {
+		padding-left: 10px;
+	}
+	.touch {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 25px;
+	}
+	nav {
+		display: flex;
+		max-height: 100px;
+		position: relative;
+	}
+	nav ul {
+		width: 97%;
+		flex-direction: column;
+		align-self: center;
+		position: absolute;
+		top: 80px;
+		right: 5px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #f4f4f4;
+		box-shadow: 0 1px 4px rgba(0,0,0,.3);
+		margin-left: 0;
+	} 
+	nav li:hover {
+		background: #b9b1b1;
+	}
+	nav li a:hover {
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+	main .container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.blog p {
+		font-size: 16px;
+	}
+	section p {
+		font-size: 16px;		
+	}
+	main .container section {
+		width: 90%;
+		margin: 70px auto auto auto;
+	}
+	main .container:nth-child(4) {
+		flex-direction: row;
+	}	
+	main .container:nth-child(4) h3 {
+		text-align: center;
+		font-size: 12px;
+		line-height: 100%;
+	}	
+	main .container:nth-child(5) section {
+		width: 90%;
+	}
+	main .container:nth-child(5) h5 {
+		text-align: center;
+	}
+	main .container:nth-child(5) .one {
+		width: 100%;
+	}
+	footer {
+		margin: 65px 0 0 0;
+	}
+	footer .container {
+		width: 90%;
+		margin-top: 4%;
+	}
+	.box {
+		width: 43%;
+	}
+}

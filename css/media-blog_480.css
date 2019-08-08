@@ -1,0 +1,215 @@
+@media only screen and (max-device-width: 414px) and 
+(max-device-height: 736px) and (orientation : portrait) {
+	.top {
+		display: none;
+	}
+	header, main, .content {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.logo {
+		padding-left: 10px;
+	}
+	.touch {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 25px;
+	}
+	nav {
+		display: flex;
+		max-height: 100px;
+		position: relative;
+	}
+	nav ul {
+		display: none;
+		width: 97%;
+		flex-direction: column;
+		align-self: center;
+		position: absolute;
+		top: 80px;
+		right: 5px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #f4f4f4;
+		box-shadow: 0 1px 4px rgba(0,0,0,.3);
+		margin-left: 0;
+	} 
+	nav li:hover {
+		background: #b9b1b1;
+	}
+	nav li a:hover {
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+	h2 {
+		width: 90%;
+		margin: 0 0 0 5%;
+	}
+	.content .container:first-child p {
+		width: 90%;
+		margin: 10px 0 0 5%;	
+	}
+	.content .line {
+		margin: 20px auto 0 auto;
+	}
+	.content .container .line {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.content .container {
+		margin: 0 auto;
+	}
+	.container section:nth-child(1) {
+		margin-top: 30px;
+	}
+	.blog {
+		display: flex;
+		flex-direction: column;
+	}
+	.blog .blog-item:first-child {
+		column-count: 3;
+		width: 100%;
+		column-gap: 55px;
+	}
+	.blog-item:last-child {
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 0;
+
+	}
+	.blog-item:last-child p {
+		font-size: 16px;
+		line-height: 1.56;
+	}
+	aside {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.aside-item p {
+		font-size: 16px;		
+	}
+	footer {
+		margin: 95px 0 0 0;
+	}
+	footer .container {
+		width: 90%;
+		margin-top: 4%;
+		flex-direction: row;
+	}
+}
+@media only screen and (max-device-width: 414px) 
+and (max-device-height: 736px) and (orientation : landscape) {
+	.top {
+		display: none;
+	}
+	header, main, .content {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.logo {
+		padding-left: 10px;
+	}
+	.touch {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 25px;
+	}
+	nav {
+		display: flex;
+		max-height: 100px;
+		position: relative;
+	}
+	nav ul {
+		width: 97%;
+		flex-direction: column;
+		align-self: center;
+		position: absolute;
+		top: 80px;
+		right: 5px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #f4f4f4;
+		box-shadow: 0 1px 4px rgba(0,0,0,.3);
+		margin-left: 0;
+	} 
+	nav li:hover {
+		background: #b9b1b1;
+	}
+	nav li a:hover {
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+	h2 {
+		width: 90%;
+		margin: 0 0 0 5%;
+	}
+	.content .container:first-child p {
+		width: 90%;
+		margin: 10px 0 0 5%;	
+	}
+	.content .line {
+		margin: 20px auto 0 auto;
+	}
+	.content .container .line {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.content .container {
+		margin: 0 auto;
+	}
+	.container section:nth-child(1) {
+		margin-top: 30px;
+	}
+	.blog {
+		display: flex;
+		flex-direction: column;
+	}
+	.blog .blog-item:first-child {
+		column-count: 3;
+		width: 100%;
+		column-gap: 55px;
+	}
+	.blog-item:last-child {
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 0;
+
+	}
+	.blog-item:last-child p {
+		font-size: 16px;
+		line-height: 1.56;
+	}
+	aside {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.aside-item p {
+		font-size: 16px;		
+	}
+	footer {
+		margin: 95px 0 0 0;
+	}
+	footer .container {
+		width: 90%;
+		margin-top: 4%;
+		flex-direction: row;
+	}
+}
